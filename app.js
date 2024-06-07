@@ -24,7 +24,7 @@ app.use(express.json());
 
 app.use(morgan('dev'));
 
-const whitelist = ['https://frontend-gray-mu-93.vercel.app','http://34.233.94.79:3000', 'http://localhost:3000', 'http://localhost:3002'];
+const whitelist = ['https://frontend-gray-mu-93.vercel.app','http://34.233.94.79:3000', 'http://localhost:3000', 'http://localhost:3002','https://frontend-book-store-kappa.vercel.app/'];
 
 const corsOptions = {
     origin: function (origin, callback) {
